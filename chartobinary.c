@@ -10,12 +10,11 @@ void charToBinary(char c) {
 
 int main() {
     char inputChar;
-    
+
     printf("Digite o caracter desejado: ");
     scanf("%c", &inputChar); //charToBinary('B'); // Test function with character 'A'
-    
+
     charToBinary(inputChar);
 
     return 0;
 }
-
